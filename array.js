@@ -22,3 +22,7 @@ hobbies.map(hobby =>{console.log("hobby: "+hobby);});
 hobbies.push("programming");
 hobbies.map(hobby =>{console.log("hobby: "+hobby);});
 
+const copyarray = [...hobbies];
+console.log(copyarray);
+const copyobject = {...persons};
+console.log(copyobject);
